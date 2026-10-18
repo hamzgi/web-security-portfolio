@@ -2,6 +2,11 @@
 
 웹보안프로그래밍 중간 과제를 위해 만든 Next.js 개인 포트폴리오입니다. KubeCompass와 화이트햇스쿨 Kubernetes 레드티밍 프로젝트를 중심으로, 확인 가능한 로컬 프로젝트 기록을 정리했습니다.
 
+## 배포
+
+- Live: https://web-security-portfolio.vercel.app
+- Repository: https://github.com/hamzgi/web-security-portfolio
+
 ## 실행
 
 ```bash

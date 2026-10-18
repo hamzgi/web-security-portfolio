@@ -25,3 +25,5 @@ yarn-error.log*
 
 # Sites packaging
 *.tar.gz
+
+.vercel
