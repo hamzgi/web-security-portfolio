@@ -1,15 +1,18 @@
-import { Icon } from "@/components/icon";
+import Image from "next/image";
 import { siteProfile } from "@/lib/site-data";
 
 export function ProfileCard() {
   return (
     <aside className="profile-card" aria-label="프로필 요약">
       <div className="profile-photo-slot">
-        <div className="profile-photo-inner">
-          <Icon name="camera" />
-          <strong>PHJ</strong>
-          <span>PROFILE PHOTO</span>
-        </div>
+        <Image
+          className="profile-photo-image"
+          src="/images/profile-photo.jpg"
+          alt="박형진 프로필 사진"
+          fill
+          sizes="(max-width: 760px) 100vw, 360px"
+          priority
+        />
       </div>
       <div className="profile-meta">
         <p className="mono-label">PROFILE / 001</p>
